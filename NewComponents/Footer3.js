@@ -1,19 +1,17 @@
 import React from 'react'
 import { Platform, StyleSheet, Text, View,TouchableOpacity } from 'react-native'
 
-const Footer1 = () => {
+const Footer3 = () => {
     return (
         <View style = { styles.MainContainer }>
 
                <View style={ styles.bottomView} >
                <TouchableOpacity>
                <Text style={ styles.Text1}>
-                   SKIP ITEM SELECTION
+                   PLACE TO ORDER
                </Text>
                </TouchableOpacity>
-               <Text style={ styles.Text2}>
-               (OUR DELIVERY PERSON DIRECTLY TAKE ORDER FROM YOUR PLACE)
-               </Text>
+               
  
                </View>
  
@@ -21,7 +19,7 @@ const Footer1 = () => {
     )
 }
 
-export default Footer1
+export default Footer3
 
 const styles = StyleSheet.create({
     MainContainer:

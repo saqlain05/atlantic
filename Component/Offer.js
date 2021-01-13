@@ -38,9 +38,11 @@ export default Offer
 
 const styles = StyleSheet.create({
     mainDiv:{
-        width:"93%",
+        width:"100%",
         marginHorizontal:'auto',
-        marginBottom: 10
+        // marginBottom: 10,
+        backgroundColor:"#fff",
+        paddingRight: 10
     },
     title:{
         fontSize: 25,

@@ -4,6 +4,8 @@ import { Alert, Image, StyleSheet, Text, View, Modal,TouchableHighlight, Button,
 const ProdictList = () => {
     const [modalVisible, setModalVisible] = useState(false);
     const [count, setCount] = useState(0);
+    const [saq, setSaq] = useState(0);
+    const [saql, setSaql] = useState(0);
     return (
         <>
         <View style={styles.productListMain}>
@@ -80,11 +82,11 @@ const ProdictList = () => {
                 <Text style={styles.cleanTitle2}>5 QAR</Text>
                 </View>
                 <View style={styles.cleanButton}>
-                <TouchableOpacity style={styles.button} onPress={()=>setCount(count - 1)}>
+                <TouchableOpacity style={styles.button} onPress={()=>setSaq(saq - 1)}>
                     <Text> - </Text>
                 </TouchableOpacity>
-                <Text> {count} </Text>
-                <TouchableOpacity style={styles.button} onPress={()=>setCount(count + 1)}>
+                <Text> {saq} </Text>
+                <TouchableOpacity style={styles.button} onPress={()=>setSaq(saq + 1)}>
                     <Text> + </Text>
                 </TouchableOpacity>
                 </View>
@@ -95,11 +97,11 @@ const ProdictList = () => {
                 <Text style={styles.cleanTitle2}>5 QAR</Text>
                 </View>
                 <View style={styles.cleanButton}>
-                <TouchableOpacity style={styles.button} onPress={()=>setCount(count - 1)}>
+                <TouchableOpacity style={styles.button} onPress={()=>setSaql(saql - 1)}>
                     <Text> - </Text>
                 </TouchableOpacity>
-                <Text> {count} </Text>
-                <TouchableOpacity style={styles.button} onPress={()=>setCount(count + 1)}>
+                <Text> {saql} </Text>
+                <TouchableOpacity style={styles.button} onPress={()=>setSaql(saql + 1)}>
                     <Text> + </Text>
                 </TouchableOpacity>
                 </View>
@@ -226,7 +228,7 @@ const styles = StyleSheet.create({
         marginTop: 22
       },
       modalView: {
-          width: 270,
+          width: 300,
           minHeight: 300,
         margin: 20,
         backgroundColor: "white",

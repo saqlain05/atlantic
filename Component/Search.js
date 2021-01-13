@@ -27,10 +27,11 @@ export default Search
 
 const styles = StyleSheet.create({
     margin:{
-        marginTop: 50,
+        
         width:'100%',
         justifyContent:'center',
-        alignItems:'center'
+        alignItems:'center',
+        backgroundColor:"#fff"
     },
     view:{
         width: "96%" ,

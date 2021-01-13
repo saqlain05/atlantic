@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     bgc:{
         backgroundColor:'white',
         padding: 5,
-        marginTop:40
+        // marginTop:40
     },
     cat:{
         width: 70,

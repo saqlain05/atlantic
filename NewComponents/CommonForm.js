@@ -10,11 +10,7 @@ const CommonForm = () => {
     const [mobile, setMobile] = useState("");
     return (
         <View style={styles.cfmainDiv}>
-        <View style={styles.profile}>
-            <Text style={styles.profileText}> - </Text>
-            <Text style={styles.profileText}> Profile </Text>
-            <Text style={styles.profileText}> Edit </Text>
-        </View>
+    
             <View style={styles.form}>
                 <TextInput style={styles.input} theme={theme} label="First Name" value={name} mode="outlined" onChangeText={text => setName(text)}  />
                 <TextInput style={styles.input} theme={theme} label="Last Name" value={lname} mode="outlined" onChangeText={text => setLName(text)}  />

@@ -14,6 +14,10 @@ const Product = () => {
             <ProductList />
             <ProductList />
             <ProductList />
+            <ProductList />
+            <ProductList />
+            <ProductList />
+            <ProductList />
            
             </View>
         </View>
